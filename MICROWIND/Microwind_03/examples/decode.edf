@@ -1,0 +1,18 @@
+TITLE "Complex AHDL decoder";
+
+SUBDESIGN decode
+(
+  a, b, c, d, clock		: INPUT;
+  out1, out2, out1l		: OUTPUT;
+)
+
+VARIABLE
+    out1d : DFF;
+
+BEGIN
+  out1d.clk = clock;
+  out1d = out1;
+  out1l = out1d;
+  out1 = ((a == VCC) & ((b == GND) & (c == VCC) # d == GND));
+  out2 = ((a == VCC) & ((b == a) # (d == a)));
+END;

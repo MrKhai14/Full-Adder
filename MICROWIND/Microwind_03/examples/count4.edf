@@ -1,0 +1,533 @@
+(edif count4
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 1994 7 27 11 44 33)
+      (program "VIEWlogic's edifnet" (version "4.20"))))
+  (library COUNT4
+    (edifLevel 0)
+    (technology (numberDefinition (scale 1 (E 1 -12) (unit CAPACITANCE))))
+
+    (cell (rename ALTERA_AL_DFF_1 "AL_DFF")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 27 56)))
+      (userData VL_PLATFORM_CODE (string "K 146847664600 AL_DFF")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port Q
+            (direction OUTPUT))
+          (port D
+            (direction INPUT))
+          (port CLRN
+            (direction INPUT))
+          (port PRN
+            (direction INPUT))
+          (port CLK
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_TRI_2 "AL_TRI")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 28 26)))
+      (userData VL_PLATFORM_CODE (string "K 97973676390 AL_TRI")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN
+            (direction INPUT))
+          (port OE
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_NOR2_3 "AL_NOR2")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 28 8)))
+      (userData VL_PLATFORM_CODE (string "K 254744325400 AL_NOR2")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_OR2_4 "AL_OR2")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 28 20)))
+      (userData VL_PLATFORM_CODE (string "K 387278332600 AL_OR2")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_NAND2_5 "AL_NAND2")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 28 0)))
+      (userData VL_PLATFORM_CODE (string "K 200052151400 AL_NAND2")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_AND2_6 "AL_AND2")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 27 50)))
+      (userData VL_PLATFORM_CODE (string "K 284857983800 AL_AND2")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_OR3_7 "AL_OR3")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 28 20)))
+      (userData VL_PLATFORM_CODE (string "K 331781179200 AL_OR3")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (port IN3
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_NOT_8 "AL_NOT")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 28 16)))
+      (userData VL_PLATFORM_CODE (string "K 223584504100 AL_NOT")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell (rename ALTERA_AL_XNOR2_9 "AL_XNOR2")
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 1 11 19 28 26)))
+      (userData VL_PLATFORM_CODE (string "K 131672517500 AL_XNOR2")
+        (owner "Viewlogic_Systems"))
+      (userData LIBNAME
+        (string "ALTERA")
+          (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (property LEVEL (string "ALTERA") (owner "Viewlogic_Systems")))
+      ))
+
+    (cell COUNT4
+      (cellType GENERIC)
+        (status (written
+         (timeStamp 1994 7 27 11 44 33)))
+      (userData VL_PLATFORM_CODE (string "K 235138756900 count4")
+        (owner "Viewlogic_Systems"))
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port LOAD
+            (direction INPUT))
+          (port ENABLE
+            (direction INPUT))
+          (port RST
+            (direction INPUT))
+          (port CLK
+            (direction INPUT))
+          (port DATA0
+            (direction INOUT))
+          (port DATA1
+            (direction INOUT))
+          (port DATA2
+            (direction INOUT))
+          (port DATA3
+            (direction INOUT)))
+        (contents
+          (instance MEM_1
+            (viewRef view_1 (cellRef ALTERA_AL_DFF_1)))
+          (instance MEM_2
+            (viewRef view_1 (cellRef ALTERA_AL_DFF_1)))
+          (instance MEM_3
+            (viewRef view_1 (cellRef ALTERA_AL_DFF_1)))
+          (instance MEM_4
+            (viewRef view_1 (cellRef ALTERA_AL_DFF_1)))
+          (instance MEM_5
+            (viewRef view_1 (cellRef ALTERA_AL_DFF_1)))
+          (instance TS1
+            (viewRef view_1 (cellRef ALTERA_AL_TRI_2)))
+          (instance TS2
+            (viewRef view_1 (cellRef ALTERA_AL_TRI_2)))
+          (instance TS3
+            (viewRef view_1 (cellRef ALTERA_AL_TRI_2)))
+          (instance TS4
+            (viewRef view_1 (cellRef ALTERA_AL_TRI_2)))
+          (instance XU_0
+            (viewRef view_1 (cellRef ALTERA_AL_NOR2_3)))
+          (instance XU_1
+            (viewRef view_1 (cellRef ALTERA_AL_NOR2_3)))
+          (instance XU_10
+            (viewRef view_1 (cellRef ALTERA_AL_OR2_4)))
+          (instance XU_11
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_12
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_13
+            (viewRef view_1 (cellRef ALTERA_AL_OR2_4)))
+          (instance XU_14
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_15
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_16
+            (viewRef view_1 (cellRef ALTERA_AL_OR2_4)))
+          (instance XU_17
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_18
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_19
+            (viewRef view_1 (cellRef ALTERA_AL_OR2_4)))
+          (instance XU_2
+            (viewRef view_1 (cellRef ALTERA_AL_AND2_6)))
+          (instance XU_20
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_21
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_22
+            (viewRef view_1 (cellRef ALTERA_AL_OR3_7)))
+          (instance XU_23
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_24
+            (viewRef view_1 (cellRef ALTERA_AL_NOT_8)))
+          (instance XU_25
+            (viewRef view_1 (cellRef ALTERA_AL_NOT_8)))
+          (instance XU_26
+            (viewRef view_1 (cellRef ALTERA_AL_OR2_4)))
+          (instance XU_27
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (instance XU_3
+            (viewRef view_1 (cellRef ALTERA_AL_NOR2_3)))
+          (instance XU_4
+            (viewRef view_1 (cellRef ALTERA_AL_NOR2_3)))
+          (instance XU_5
+            (viewRef view_1 (cellRef ALTERA_AL_AND2_6)))
+          (instance XU_6
+            (viewRef view_1 (cellRef ALTERA_AL_XNOR2_9)))
+          (instance XU_7
+            (viewRef view_1 (cellRef ALTERA_AL_NOT_8)))
+          (instance XU_8
+            (viewRef view_1 (cellRef ALTERA_AL_NOT_8)))
+          (instance XU_9
+            (viewRef view_1 (cellRef ALTERA_AL_NAND2_5)))
+          (net CLK
+            (joined
+              (portRef CLK)
+              (portRef CLK (instanceRef MEM_5))
+              (portRef CLK (instanceRef MEM_4))
+              (portRef CLK (instanceRef MEM_3))
+              (portRef CLK (instanceRef MEM_2))
+              (portRef CLK (instanceRef MEM_1))))
+          (net C_1000_1
+            (joined
+              (portRef OUT (instanceRef XU_26))
+              (portRef IN1 (instanceRef XU_22))
+              (portRef IN1 (instanceRef XU_2))
+              (portRef IN1 (instanceRef XU_1)))
+            (property NET_TIMING (string "FAIL") (owner "Viewlogic_Systems")))
+          (net C_1000_2
+            (joined
+              (portRef IN1 (instanceRef XU_5))
+              (portRef IN2 (instanceRef XU_4))
+              (portRef OUT (instanceRef XU_27))
+              (portRef IN2 (instanceRef XU_26)))
+            (property NET_TIMING (string "FAIL") (owner "Viewlogic_Systems")))
+          (net DATA0
+            (joined
+              (portRef DATA0)
+              (portRef IN1 (instanceRef XU_20))
+              (portRef OUT (instanceRef TS4))))
+          (net DATA1
+            (joined
+              (portRef DATA1)
+              (portRef IN1 (instanceRef XU_17))
+              (portRef OUT (instanceRef TS3))))
+          (net DATA2
+            (joined
+              (portRef DATA2)
+              (portRef IN1 (instanceRef XU_14))
+              (portRef OUT (instanceRef TS2))))
+          (net DATA3
+            (joined
+              (portRef DATA3)
+              (portRef IN1 (instanceRef XU_11))
+              (portRef OUT (instanceRef TS1))))
+          (net ENABLE
+            (joined
+              (portRef ENABLE)
+              (portRef OE (instanceRef TS4))
+              (portRef OE (instanceRef TS3))
+              (portRef OE (instanceRef TS2))
+              (portRef OE (instanceRef TS1))))
+          (net L1_COUNT_E0MEM
+            (joined
+              (portRef OUT (instanceRef XU_18))
+              (portRef D (instanceRef MEM_2))))
+          (net L1_COUNT_E1MEM
+            (joined
+              (portRef OUT (instanceRef XU_15))
+              (portRef D (instanceRef MEM_3))))
+          (net L1_COUNT_E2MEM
+            (joined
+              (portRef OUT (instanceRef XU_12))
+              (portRef D (instanceRef MEM_4))))
+          (net L1_COUNT_E3CLR
+            (joined
+              (portRef OUT (instanceRef XU_25))
+              (portRef CLRN (instanceRef MEM_5))
+              (portRef CLRN (instanceRef MEM_4))
+              (portRef CLRN (instanceRef MEM_3))
+              (portRef CLRN (instanceRef MEM_2))))
+          (net L1_COUNT_E3MEM
+            (joined
+              (portRef OUT (instanceRef XU_9))
+              (portRef D (instanceRef MEM_5)))
+            (property NET_TIMING (string "FAIL") (owner "Viewlogic_Systems")))
+          (net L1_COUNT_E4CLR
+            (joined
+              (portRef OUT (instanceRef XU_24))
+              (portRef CLRN (instanceRef MEM_1))))
+          (net L1_COUNT_E4MEM
+            (joined
+              (portRef OUT (instanceRef XU_21))
+              (portRef D (instanceRef MEM_1))))
+          (net LOAD
+            (joined
+              (portRef LOAD)
+              (portRef IN1 (instanceRef XU_23))
+              (portRef IN3 (instanceRef XU_22))
+              (portRef IN2 (instanceRef XU_20))
+              (portRef IN1 (instanceRef XU_19))
+              (portRef IN2 (instanceRef XU_17))
+              (portRef IN2 (instanceRef XU_16))
+              (portRef IN2 (instanceRef XU_14))
+              (portRef IN2 (instanceRef XU_13))
+              (portRef IN2 (instanceRef XU_11))
+              (portRef IN2 (instanceRef XU_10))))
+          (net (rename MEM_1__O1_10 "MEM_1_$O1")
+            (joined
+              (portRef IN2 (instanceRef XU_23))
+              (portRef Q (instanceRef MEM_1))))
+          (net (rename NET__1_11 "NET_$1")
+            (joined
+              (portRef IN1 (instanceRef XU_10))
+              (portRef OUT (instanceRef XU_0)))
+            (property NET_TIMING (string "FAIL") (owner "Viewlogic_Systems")))
+          (net (rename NET__11_12 "NET_$11")
+            (joined
+              (portRef IN2 (instanceRef XU_9))
+              (portRef OUT (instanceRef XU_10)))
+            (property NET_TIMING (string "FAIL") (owner "Viewlogic_Systems")))
+          (net (rename NET__12_13 "NET_$12")
+            (joined
+              (portRef IN1 (instanceRef XU_9))
+              (portRef OUT (instanceRef XU_11))))
+          (net (rename NET__14_14 "NET_$14")
+            (joined
+              (portRef OUT (instanceRef XU_13))
+              (portRef IN2 (instanceRef XU_12))))
+          (net (rename NET__15_15 "NET_$15")
+            (joined
+              (portRef OUT (instanceRef XU_14))
+              (portRef IN1 (instanceRef XU_12))))
+          (net (rename NET__17_16 "NET_$17")
+            (joined
+              (portRef OUT (instanceRef XU_16))
+              (portRef IN2 (instanceRef XU_15))))
+          (net (rename NET__18_17 "NET_$18")
+            (joined
+              (portRef OUT (instanceRef XU_17))
+              (portRef IN1 (instanceRef XU_15))))
+          (net (rename NET__2_18 "NET_$2")
+            (joined
+              (portRef OUT (instanceRef XU_1))
+              (portRef IN2 (instanceRef XU_0))))
+          (net (rename NET__20_19 "NET_$20")
+            (joined
+              (portRef OUT (instanceRef XU_19))
+              (portRef IN2 (instanceRef XU_18))))
+          (net (rename NET__21_20 "NET_$21")
+            (joined
+              (portRef OUT (instanceRef XU_20))
+              (portRef IN1 (instanceRef XU_18))))
+          (net (rename NET__23_21 "NET_$23")
+            (joined
+              (portRef OUT (instanceRef XU_22))
+              (portRef IN2 (instanceRef XU_21))))
+          (net (rename NET__24_22 "NET_$24")
+            (joined
+              (portRef OUT (instanceRef XU_23))
+              (portRef IN1 (instanceRef XU_21))))
+          (net (rename NET__3_23 "NET_$3")
+            (joined
+              (portRef OUT (instanceRef XU_2))
+              (portRef IN1 (instanceRef XU_0)))
+            (property NET_TIMING (string "FAIL") (owner "Viewlogic_Systems")))
+          (net (rename NET__4_24 "NET_$4")
+            (joined
+              (portRef OUT (instanceRef XU_3))
+              (portRef IN1 (instanceRef XU_13))))
+          (net (rename NET__5_25 "NET_$5")
+            (joined
+              (portRef OUT (instanceRef XU_4))
+              (portRef IN2 (instanceRef XU_3))))
+          (net (rename NET__6_26 "NET_$6")
+            (joined
+              (portRef OUT (instanceRef XU_5))
+              (portRef IN1 (instanceRef XU_3))))
+          (net (rename NET__7_27 "NET_$7")
+            (joined
+              (portRef OUT (instanceRef XU_6))
+              (portRef IN1 (instanceRef XU_16))))
+          (net (rename NET__8_28 "NET_$8")
+            (joined
+              (portRef OUT (instanceRef XU_7))
+              (portRef IN2 (instanceRef XU_22))))
+          (net (rename NET__9_29 "NET_$9")
+            (joined
+              (portRef OUT (instanceRef XU_8))
+              (portRef IN1 (instanceRef XU_26))))
+          (net RST
+            (joined
+              (portRef RST)
+              (portRef IN (instanceRef XU_25))
+              (portRef IN (instanceRef XU_24))))
+          (net TSI1
+            (joined
+              (portRef IN (instanceRef XU_7))
+              (portRef IN2 (instanceRef XU_2))
+              (portRef IN2 (instanceRef XU_1))
+              (portRef IN (instanceRef TS1))
+              (portRef Q (instanceRef MEM_5))))
+          (net TSI2
+            (joined
+              (portRef IN (instanceRef XU_8))
+              (portRef IN2 (instanceRef XU_5))
+              (portRef IN1 (instanceRef XU_4))
+              (portRef IN (instanceRef TS2))
+              (portRef Q (instanceRef MEM_4))))
+          (net TSI3
+            (joined
+              (portRef IN2 (instanceRef XU_6))
+              (portRef IN1 (instanceRef XU_27))
+              (portRef IN (instanceRef TS3))
+              (portRef Q (instanceRef MEM_3))))
+          (net TSI4
+            (joined
+              (portRef IN1 (instanceRef XU_6))
+              (portRef IN2 (instanceRef XU_27))
+              (portRef IN2 (instanceRef XU_19))
+              (portRef IN (instanceRef TS4))
+              (portRef Q (instanceRef MEM_2)))
+            (property NET_TIMING (string "FAIL") (owner "Viewlogic_Systems")))
+          (net VDD
+            (joined
+              (portRef PRN (instanceRef MEM_5))
+              (portRef PRN (instanceRef MEM_4))
+              (portRef PRN (instanceRef MEM_3))
+              (portRef PRN (instanceRef MEM_2))
+              (portRef PRN (instanceRef MEM_1)))
+            (property GLOBAL (boolean (TRUE))
+             (owner "Viewlogic_Systems"))
+)
+        )
+      ))
+
+  )
+  (design ROOT
+    (cellRef COUNT4
+      (libraryRef COUNT4)))
+)

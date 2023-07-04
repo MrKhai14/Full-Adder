@@ -1,0 +1,36 @@
+VERSION 4/17/2004 3:49:00 PM
+FIG #F:\ni Logic Pvt. Ltd\ni2 Designs\uWind\New inputs by etienne\microwind3full\microwind3 full\test.MSK
+BB(6,27,32,51)
+SIMU #10.00
+REC(6,27,26,24,OP,1)
+REC(7,34,4,4,DP)
+REC(25,38,1,4,DN)
+REC(21,34,4,1,DN)
+REC(20,35,5,9,DN)
+REC(17,35,1,9,DN)
+REC(13,34,4,10,DN)
+REC(14,41,2,2,CO)
+REC(8,35,2,2,CO)
+REC(18,32,2,2,CO)
+REC(22,41,2,2,CO)
+REC(22,35,2,2,CO)
+REC(8,35,2,2,CO)
+REC(14,35,2,2,CO)
+REC(23,39,2,2,CO)
+REC(18,35,2,12,PO)
+REC(17,31,4,4,PO)
+REC(21,34,4,14,ME)
+REC(7,34,2,4,ME)
+REC(25,38,1,4,ME)
+REC(17,31,4,4,ME)
+REC(13,30,4,14,ME)
+REC(9,34,4,10,ME)
+REC(17,34,4,1,DN)
+REC(18,35,2,9,DN)
+TITLE 19 33  #Clock
+$C 1000 0 0.2250 0.2500 0.4750 0.5000 
+TITLE 10 34  #gnd
+$0 1000 0 
+TITLE 24 40  #VCC
+$1 1000 0 
+FFIG F:\ni Logic Pvt. Ltd\ni2 Designs\uWind\New inputs by etienne\microwind3full\microwind3 full\test.MSK

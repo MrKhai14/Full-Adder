@@ -1,0 +1,19 @@
+VERSION 6/28/2023 11:12:24 PM
+FIG #C:\Users\Admin\Desktop\MicroWind\Microwind_03\test.MSK
+BB(41,46,59,58)
+SIMU #5.00
+REC(51,49,8,6,DN)
+REC(41,49,8,6,DN)
+REC(43,51,2,2,CO)
+REC(55,51,2,2,CO)
+REC(49,46,2,12,PO)
+REC(41,49,6,6,ME)
+REC(53,49,6,6,ME)
+REC(49,49,2,6,DN)
+TITLE 58 53  #Vout
+$v 1000 0 
+TITLE 50 57  #Vg
+$c 1000 0 0.4500 0.5000 0.9500 1.0000 
+TITLE 43 54  #Vd
+$c 1000 0 0.2000 0.2500 0.4500 0.5000 
+FFIG C:\Users\Admin\Desktop\MicroWind\Microwind_03\test.MSK
