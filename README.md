@@ -1,1 +1,1 @@
-# Full-Adder-1-bit
+# Full-Adder-4-bit
