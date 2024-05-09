@@ -1,6 +1,8 @@
 # Full-Adder-4-bit
 *Mô phỏng mạch dùng LTspice, MICROWIND cho layout, glade cho LVS.
+
 *Dùng công nghệ 130nm "130nm_bulk.lib"
+
 I. Thiết kế 
 
 1. Biểu thức hàm.
