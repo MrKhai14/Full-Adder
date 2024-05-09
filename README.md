@@ -1,7 +1,11 @@
 # Full-Adder-4-bit
+
 I. Thiết kế 
+
 1. Biểu thức hàm.
+   
 Truth Table
+
 A	B	C	S	CO
 0	0	0	0	0
 0	0	1	1	0
@@ -16,12 +20,16 @@ Từ bảng trạng thái trên ta thấy có 2 giá trị ngõ ra S, CO tương
 Biểu thức logic rút gọn dưới dạng SOP (sum-of-products, tổng của tích). 
 
 a. Ngõ ra CO:
+
 CO = (A ) ̅.B.C + A .(B .) ̅C + A.B. (C ) ̅+A.B.C
 Dùng bìa K – Map để rút gọn ta được CO = AB +AC +BC 
+
 b. Ngõ ra S
+
 ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/6c2e4be8-4314-4af5-b86a-b43f540425ee)
 
-2. Mạch ở mức transistor 
+2. Mạch ở mức transistor
+3. 
  ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/c2a2612d-b0cc-4fc7-bdb2-33caa68d8e67)
 
 Pull up: dùng pMOS chỉ bật khi ngõ vào là 0
@@ -30,12 +38,17 @@ Vẽ các transistor ở nhánh pull down trước sau đó đổi ngược lạ
 Transistor được mắc theo quy tắc tương ứng với dấu “.” Là nối tiếp, “+” là song song. Nhánh pull up thì ngược lại.
 Ngõ ra CO = A.B + C.(A + B) 
 Ngõ ra S = (A + B +C).(CO) ̅ + A.B.C
+
+
 ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/802ede52-f0d8-49af-8e41-8118871523cc)
 
-3. Mô phỏng ở mức schematics 
+3. Mô phỏng ở mức schematics
+   
 a. Định kích thướt
+
 Kích thước của bóng bán dẫn có thể được thực hiện bằng cách sử dụng xấp xỉ độ trễ RC. Mô hình độ trễ RC giúp ước tính độ trễ mạch CMOS. Mô hình độ trễ RC xử lý các đặc tính dòng điện-điện áp IV và điện áp CV của tụ điện phi tuyến tính với mô hình điện trở và điện dung tương đương của chúng.
 Mô hình độ trễ RC này xấp xỉ một bóng bán dẫn như một công tắc có một loạt điện trở hoặc điện trở hiệu dụng R (Là tỷ lệ giữa giá trị trung bình của Vds với Ids). Kích thước của một bóng bán dẫn đơn vị xấp xỉ bằng 4/2 lambda. Các mô hình mạch RC tương đương cho các bóng bán dẫn PMOS và NMOS được hiển thị bên dưới.
+
   ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/9e778190-1729-45f2-90e0-a9a6a5e14269)
 
 Kích thướt PMOS: 
@@ -44,6 +57,7 @@ Bằng cách xem xét mạng pull-up trong mạch trên, chúng ta sẽ tìm ra 
 Kích thướt NMOS:
 Đối với một bóng bán dẫn NMOS đơn vị, điện trở hiệu dụng với độ rộng k được cho bởi R/k.
 Trong mạng trên, trường hợp xấu nhất hoặc đường dẫn dài nhất có thể được nhìn thấy là với hai bóng bán dẫn. (Các con đường AB, AC, và BC). Vì vậy, chúng ta có thể viết mối quan hệ 2 * R/k = R, Vì vậy, giá trị k của tất cả các bóng bán dẫn NMOS sẽ là 2 vì tất cả đều nằm trong đường dẫn dài nhất.
+
 ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/f53109b8-dff4-4719-9951-816bdfb8ed65)
 
  
