@@ -5,19 +5,11 @@
 
 I. Thiết kế 
 
+![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/fb010385-2dbd-41ea-ab31-6e20cf8c5d6b)
+
 1. Biểu thức hàm.
    
-Truth Table
-
-A	B	C	S	CO ;
-0	0	0	0	0  ;
-0	0	1	1	0  ;
-0	1	0	1	0  ;
-0	1	1	0	1  ;
-1	0	0	1	0  ;
-1	0	1	0	1  ;
-1	1	0	0	1  ;
-1	1	1	1	1
+![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/d1884059-e506-4408-881d-bb09d6ac068c)
 
 Từ bảng trạng thái trên ta thấy có 2 giá trị ngõ ra S, CO tương ứng với 3 ngõ vào A, B, C. Vì vậy, ta cần rút gọn hai biểu thức S và CO.
 Biểu thức logic rút gọn dưới dạng SOP (sum-of-products, tổng của tích). 
@@ -87,3 +79,38 @@ Trong mạng trên, trường hợp xấu nhất hoặc đường dẫn dài nh�
  ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/dab2b8ed-a4c9-42e2-9d23-41c2de1baf45)
 ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/9b4e8f70-ed8f-4931-a586-ee24d7a257e3)
 
+5. Microwind
+   
+   ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/4a95b25f-9980-404c-94a2-0acc14c0777a)
+
+- Kết quả mô phỏng sau layout:
+
+   ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/1860ebbf-2edb-4490-b0d5-5e05cdb16fb8)
+
+   ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/201fe404-580a-40b6-87f4-9bf7c2effdac)
+II.Full adder 4 bit
+
+1. Full adder 4-bit là gì ?
+   
+- Mạch cộng Full Adder 4-bit là một mạch logic kết hợp được sử dụng để thực hiện phép cộng số học cho hai số 4-bit. Nó sử dụng bốn mạch Full Adder để thực hiện phép cộng từng bit và tạo ra kết quả 4-bit và bit nhớ cộng (carry-out).
+  
+2. Hoạt động
+
+![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/ceb219d9-7637-4079-88a2-bc808772969f)
+
+- Mạch Full Adder 4-bit bao gồm bốn mạch Full Adder độc lập. Mỗi mạch Full Adder lấy hai bit đầu vào tương ứng từ A và B (A0, A1, A2, A3 và B0, B1, B2, B3) và một bit nhớ cộng (carry-in) tương ứng từ mạch Full Adder trước đó (Cin0, Cin1, Cin2). 
+- Mạch Full Adder 4-bit sẽ thực hiện phép cộng 4 bit của A và B và sinh ra tổng S0, S1, S2, S3 cùng với bit nhớ cộng Cout.
+  
+3. Schematic
+
+   ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/ffdb039c-c12b-4a8e-80c5-5004e55c84c2)
+
+Kết quả mô phỏng trên LTSpice
+
+![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/94dca7b5-1d59-46a3-9760-250ad60bcabd)
+
+4. Layout và post-layout
+
+   ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/4a309bb4-2766-48ec-a079-e2306b14107a)
+
+![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/edc31e94-1da7-4f9c-9ac0-007f06328f3d)
