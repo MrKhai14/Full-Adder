@@ -114,3 +114,6 @@ Kết quả mô phỏng trên LTSpice
    ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/4a309bb4-2766-48ec-a079-e2306b14107a)
 
 ![image](https://github.com/MrKhai14/Full-Adder/assets/127326200/edc31e94-1da7-4f9c-9ac0-007f06328f3d)
+                                                   
+                                                   
+                                                   HẾT!
